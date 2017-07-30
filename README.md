@@ -1,7 +1,7 @@
 # DBPRE
 SQL precompiler for COBOL from svn checkout svn://svn.code.sf.net/p/dbpre/code/ dbpre-code
 
-# How to install dependencies 
+# How to install dependence
 ```txt
 sudo apt-get install libmysqlclient-dev
 ```
@@ -11,15 +11,12 @@ sudo apt-get install libmysqlclient-dev
 Run compile.sh
 ```
 
-#How to set openCobol IDE for MySQL
+# How to set openCobol IDE for MySQL
 ```txt
 https://opencobolide.readthedocs.io/en/latest/advanced.html#sql-cobol-guide
 ```
 
-
-
-
-
+# More information about DBPRE
 
 Developed by the_piper@web.de
 For more infos see here: https://sourceforge.net/projects/dbpre/
@@ -136,7 +133,7 @@ First call dbpre with the program name without suffix
 E.g: dbpre PCTB003B -I./ -ts=3
 
 dbpre expects that the suffix of the source code is .scb (Sql CoBol).
-dbpre will then produce a .cob and a .lst file.
+dbpre will then produce a .cob and a .lst file.How
 The .lst file contains, like the .cob file, the COBOL program but also error 
 messages, if dbpre has found any errors.
 
